@@ -1,0 +1,40 @@
+sort1 uses: BubbleSort
+
+How do you know?: I comper sort1 and sort3 on sorted50000.txt and sort1 was way faster then sort3.
+
+sort2 uses: MergeSort
+
+How do you know?: When I run all 3 on random5000.txt it showes the fastest algorythm.
+
+sort3 uses: SelectionSort
+
+How do you know?: On sorted50000.txt sort3 was the slower then sort1 and got slower algorythm.
+
+
+
+sort1 :
+
+random5000 txt
+real    0m0.102s
+
+sort2:
+
+random5000 txt
+real    0m0.049s
+
+sort3:
+
+random5000 txt
+real    0m0.056s
+
+-----------------------------
+
+sort1 :
+
+sorted50000.txt
+real    0m1.280s
+
+sort3 :
+
+sorted50000.txt
+real    0m4.078s
